@@ -8,13 +8,11 @@ I am a PhD Student at the [Ernst Strüngmann Institute](https://www.esi-frankfur
 
 ### Education
 
-https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/298/graduation-cap_1f393.png MSc in Theoretical Physics, 2008
+- MSc in Physics, 2018 ; 
+<span style="font-size:0.9em;">Universidade Federal de Pernambuco</span>
 
-<span style="font-size:2em;"[Universidade Federal de Pernambuco](https://www.ufpe.br/en/ppgfisica/o-programa)</span>
-
-:mortar_board: BSc in Physics, 2005
-
-[Universidade Federal de Pernambuco](https://www.ufpe.br/en/ppgfisica/o-programa)
+- BSc in Physics, 2016 ; 
+<span style="font-size:0.9em;">Universidade Federal de Pernambuco</span>
 
 ### Interests
 - Theoretical neuroscience
