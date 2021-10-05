@@ -454,10 +454,6 @@ footer ul {
   margin-top: 10px;
 }
 
-.donate a {
-  border-right: 0;
-}
-
 .menu a:hover {
   background-color: #eee;
   color: #000;
@@ -468,8 +464,7 @@ footer ul {
 .categories,
 .archive,
 .rss,
-.projects,
-.donate {
+.projects{
   display: inline-block;
 }
 
@@ -493,9 +488,6 @@ footer ul {
   color: #cfa531;
 }
 
-.donate i {
-  color: #da6064;
-}
 
 /* SEARCH */
 
