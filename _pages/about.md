@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-I am a PhD Student at the [Ernst Strüngmann Institute](https://www.esi-frankfurt.de/) doing research at Prof. [Singer lab](https://www.esi-frankfurt.de/research/singer-lab/), in close collaboration with the [BrainClocks](http://www.brainclocks.com/home.html) group.  
+I am a PhD Student at the [Ernst Strüngmann Institute](https://www.esi-frankfurt.de/) doing research at Prof. [Singer lab](https://www.esi-frankfurt.de/research/singer-lab/).  
 
 ### Education
 
