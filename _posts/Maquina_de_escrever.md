@@ -2,7 +2,7 @@
 title: Máquina de Escrever
 date: 2022-9-9
 author: Pedro Carvalho
-layout: post
+layout: posts
 tags:
   - PT
 category: Essays
