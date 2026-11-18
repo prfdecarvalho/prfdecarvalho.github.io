@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedro Carvalho</title>
+<meta name="description" content="Pedro Carvalho, physicist and PhD student at the Ernst Strüngmann Institute for Neuroscience, Frankfurt. Oscillatory recurrent neural networks.">
+<meta property="og:title" content="Pedro Carvalho">
+<meta property="og:description" content="Physicist and PhD student at the Ernst Strüngmann Institute for Neuroscience, Frankfurt.">
+<meta property="og:image" content="https://prfdecarvalho.github.io/photo.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='none' stroke='%23444' stroke-width='3'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fdfdfc;
+    --fg: #1d1d1b;
+    --muted: #6b6b66;
+    --rule: #e4e4e0;
+    --link: #1f5f8b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161615;
+      --fg: #e8e8e4;
+      --muted: #9a9a94;
+      --rule: #2e2e2b;
+      --link: #8cbce0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 64px 20px 48px;
+  }
+  a { color: var(--link); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  header img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  h1 { font-size: 30px; font-weight: 600; margin: 0 0 4px; letter-spacing: -0.01em; }
+  .role { color: var(--muted); margin: 0 0 10px; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 15px; }
+  h2 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 40px 0 14px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--rule);
+  }
+  p { margin: 0 0 14px; }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { margin: 0 0 18px; }
+  .entry { display: grid; grid-template-columns: 112px 1fr; gap: 0 16px; }
+  .when { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 15px; padding-top: 1px; }
+  .title { font-weight: 500; }
+  .meta { color: var(--muted); font-size: 15px; }
+  .meta a { margin-right: 12px; }
+  .me { color: var(--fg); font-weight: 600; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+  @media (max-width: 560px) {
+    main { padding: 40px 16px 32px; }
+    header { flex-direction: column; align-items: flex-start; gap: 18px; }
+    header img { width: 104px; height: 104px; }
+    .entry { grid-template-columns: 1fr; }
+    .when { padding: 0; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <img src="photo.jpg" alt="Portrait of Pedro Carvalho" width="128" height="128">
+  <div>
+    <h1>Pedro Carvalho</h1>
+    <p class="role">Physicist · PhD student at the Ernst Strüngmann Institute, Frankfurt</p>
+    <div class="links">
+      <a href="mailto:pedro.carvalho@esi-frankfurt.de">Email</a>
+      <a href="https://github.com/prfdecarvalho">GitHub</a>
+      <a href="https://twitter.com/prfdecarvalho">X</a>
+      <a href="https://esi-frankfurt.de/research/people/pedro-fragoso-de-carvalho/">ESI profile</a>
+    </div>
+  </div>
+</header>
+
+<section>
+  <h2>About</h2>
+  <p>I am a physicist and a PhD student in the group of Wolf Singer at the Ernst Strüngmann Institute (ESI) for Neuroscience in Frankfurt am Main. I also work at Natural Intelligence (Nisys).</p>
+  <p>I study recurrent networks of damped harmonic oscillators (HORNs) as models of computation in neocortical circuits. My work covers how these networks use their oscillatory dynamics to learn, and how to build them in analog-electronic hardware. My background is in statistical mechanics and nonlinear dynamics.</p>
+</section>
+
+<section>
+  <h2>Affiliations</h2>
+  <ul>
+    <li class="entry">
+      <span class="when">2021 to now</span>
+      <div>
+        <div class="title"><a href="https://esi-frankfurt.de">Ernst Strüngmann Institute (ESI) for Neuroscience</a></div>
+        <div class="meta">In Cooperation with Max Planck Society. Singer Lab, PhD student. Frankfurt am Main, Germany</div>
+      </div>
+    </li>
+    <li class="entry">
+      <span class="when">Now</span>
+      <div>
+        <div class="title"><a href="https://nisys.ai">Natural Intelligence (Nisys GmbH)</a></div>
+        <div class="meta">Frankfurt am Main, Germany</div>
+      </div>
+    </li>
+    <li class="entry">
+      <span class="when">2019 to 2021</span>
+      <div>
+        <div class="title">Institute of Physics, Polish Academy of Sciences (IF-PAN)</div>
+        <div class="meta">PhD student. Warsaw, Poland</div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Publications</h2>
+  <ul>
+    <li class="entry">
+      <span class="when">2025</span>
+      <div>
+        <div class="title"><a href="https://doi.org/10.1103/bg2h-5tt8">Analog-electronic implementation of a harmonic oscillator recurrent neural network</a></div>
+        <div><span class="me">P. Carvalho</span>, B. Ulmann, W. Singer, F. Effenberger</div>
+        <div class="meta"><em>Physical Review Applied</em> 24, 064055 (2025)</div>
+        <div class="meta"><a href="https://doi.org/10.1103/bg2h-5tt8">DOI</a><a href="https://arxiv.org/abs/2509.04064">arXiv</a></div>
+      </div>
+    </li>
+    <li class="entry">
+      <span class="when">2025</span>
+      <div>
+        <div class="title"><a href="https://doi.org/10.1073/pnas.2412830122">The functional role of oscillatory dynamics in neocortical circuits: A computational perspective</a></div>
+        <div>F. Effenberger, <span class="me">P. Carvalho</span>, I. Dubinin, W. Singer</div>
+        <div class="meta"><em>Proceedings of the National Academy of Sciences</em> 122(4), e2412830122 (2025)</div>
+        <div class="meta"><a href="https://doi.org/10.1073/pnas.2412830122">DOI</a><a href="https://esi-frankfurt.de/news/2025/01/functional-relevance-of-oscillatory-dynamics-proven/">ESI news</a></div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>Education</h2>
+  <ul>
+    <li class="entry">
+      <span class="when">2018</span>
+      <div>
+        <div class="title">MSc in Physics, Federal University of Pernambuco (UFPE)</div>
+        <div class="meta">Recife, Brazil. Thesis: <a href="https://repositorio.ufpe.br/handle/123456789/32597"><em>Adaptação intrínseca em neurônios modelados por autômatos celulares</em></a></div>
+      </div>
+    </li>
+    <li class="entry">
+      <span class="when">2016</span>
+      <div>
+        <div class="title">BSc in Physics, Federal University of Pernambuco (UFPE)</div>
+        <div class="meta">Recife, Brazil</div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<footer>Pedro Carvalho · Frankfurt am Main</footer>
+
+</main>
+</body>
+</html>
